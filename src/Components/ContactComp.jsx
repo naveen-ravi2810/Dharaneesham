@@ -27,15 +27,15 @@ export const ContactComp = () => {
         </div>
         <div id="haveaquestioncontact" className='w-1/3 px-10 text-xl'>
           <h1 className='text-3xl pt-[50px] font-bold'>Have a Questions?</h1> <br />
-          <p className='flex pb-4 items-center gap-5'>
-          <MdOutlineMail/> <p>Email{"-->"}dharaneeshrage@gmail.com</p>
-          </p>
-          <p className='flex py-4 items-center gap-5'>
-          <CiLinkedin/> <p> Linkedln{"-->"} https://www.linkedin.com/in/dharaneesh-am-bb5413237/ </p>
-          </p>
-          <p className='flex py-4 items-center gap-5'>
-          <PiGithubLogoLight/> <p>GitHub {"-->"}https://github.com/DharaneeshAM</p>
-          </p>
+          <Link to='mailto:dharaneeshrage@gmail.com' className='flex pb-4 items-center gap-5'>
+          <MdOutlineMail size={60}/> <p>Email{"-->"}dharaneeshrage@gmail.com</p>
+          </Link>
+          <Link to='https://www.linkedin.com/in/dharaneesh-a-m-bb5413237/' target='_blank' className='flex py-4 items-center gap-5'>
+          <CiLinkedin size={60}/> <p> Linkedln{"-->"} https://www.linkedin.com/in/dharaneesh-am-bb5413237/ </p>
+          </Link>
+          <Link to='https://github.com/DharaneeshAM' target='_blank' className='flex py-4 items-center gap-5'>
+          <PiGithubLogoLight size={60}/> <p>GitHub {"-->"}https://github.com/DharaneeshAM</p>
+          </Link>
         </div>
       </div>
     </div>

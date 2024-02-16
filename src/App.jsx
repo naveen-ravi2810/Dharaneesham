@@ -5,6 +5,8 @@ import { Project } from "./Pages/Project";
 import { Contact } from "./Pages/Contact";
 import { Navbar } from "./Components/Navbar";
 import { ContactComp } from "./Components/ContactComp";
+import { BlenderProject } from "./Pages/BlenderProject";
+import { UnityProject } from "./Pages/UnityProject";
 
 export default function App() {
   return (
@@ -14,6 +16,8 @@ export default function App() {
         <Route path="/" Component={Home}/>
         <Route path="/about" Component={About}/>
         <Route path="/project" Component={Project}/>
+        <Route path="/blender" Component={BlenderProject}/>
+        <Route path="/unity" Component={UnityProject}/>
         <Route path="/contact" Component={Contact}/>
       </Routes>
       <hr />
