@@ -4,6 +4,8 @@ import ZombieGame from './../assets/videos/ZombiGame1.mp4'
 import Spaceout from './../assets/videos/SpaceOut.mp4'
 import HomeBlender1 from './../assets/HomeBlender1.png'
 import HomeBlender2 from './../assets/HomeBlender2.png'
+import BlenderBack from './../assets/BlenderBack.jpg'
+import UnityBack from './../assets/UnityBack.jpg'
 import { Link } from 'react-router-dom'
 export const Home = () => {
     const page = "home"
@@ -67,7 +69,7 @@ export const Home = () => {
         <div>
         <div
         className='h-[660px] w-full bg-no-repeat bg-cover bg-fit bg-fit bg-left bg-fixed pt-10'
-        style={{ backgroundImage: 'url(src/assets/UnityBack.jpg)'}}
+        style={{ backgroundImage: `url(${UnityBack})`}}
       >
       </div>
       <div className=''>
@@ -132,7 +134,7 @@ export const Home = () => {
         <div>
       <div
         className='w-full h-[660px] bg-no-repeat bg-cover bg-left bg-fixed py-10'
-        style={{ backgroundImage: 'url(src/assets/BlenderBack.jpg)' }}
+        style={{ backgroundImage: `url(${BlenderBack})` }}
       >
       </div>
       <div className=''>
