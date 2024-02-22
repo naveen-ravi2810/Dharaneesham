@@ -15,7 +15,7 @@ export const Contact = () => {
       <div id='styleandtopic' className='w-full h-96 pt-20 relative'>
         <img className='w-full h-full object-cover' src={bg_image} alt="Background" />
         <div className='absolute inset-0 flex pl-20 items-center'>
-          <div className='text-white text-4xl text-center'>
+          <div className='text-white text-4xl text-center uppercase'>
             Get in Touch
           </div>
         </div>

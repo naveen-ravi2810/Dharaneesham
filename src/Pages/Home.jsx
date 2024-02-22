@@ -1,5 +1,7 @@
 import React from 'react'
 import profile from './../assets/Dharaneesh.jpeg'
+import profile2 from './../assets/Dharaneesh2.jpeg'
+import sqllogo from './../assets/Logo/Sqllogo.jpeg'
 import ZombieGame from './../assets/videos/ZombiGame1.mp4'
 import Spaceout from './../assets/videos/SpaceOut.mp4'
 import HomeBlender1 from './../assets/HomeBlender1.png'
@@ -28,7 +30,7 @@ export const Home = () => {
 
        <div id="AboutmeContent" className='flex justify-between p-16 gap-6'>
             <div id='photo' className='w-1/3 justify-end flex h-1/2 pt-20'>
-                <img src={profile} className='' width={300} height={50}/>
+                <img src={profile2} className='' width={400} height={70}/>
             </div>
             <div className='w-2/3 px-20'>
                 <h1 className='text-[40px] font-bold'>About Me</h1> <br />
@@ -55,7 +57,7 @@ export const Home = () => {
                     <p><img width={80} src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png'/></p>
                     <p><img width={80} src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/220px-Unofficial_JavaScript_logo_2.svg.png'/></p>
                     <p><img width={80} src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png'/></p>
-                    <p><img width={80} src='https://lh3.googleusercontent.com/proxy/iCxQl0VGpDRfFrLRo8QPK1-GvcTwfLKLg6RLhlPVxCPqguYnxi_QeP2JBsOQ6p2Jm7xkXTLQJK09NcpLul8gHrbHoH-9B7zsILuUFe3ulJ8'/></p>
+                    <p><img width={80} src={sqllogo}/></p>
                     <p><img width={80} src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/1200px-Adobe_Premiere_Pro_CC_icon.svg.png'/></p>
                     <p><img width={80} src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1200px-Adobe_Photoshop_CC_icon.svg.png'/></p>
                     <p><img width={80} src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Adobe_After_Effects_CC_icon.svg/1200px-Adobe_After_Effects_CC_icon.svg.png'/></p>

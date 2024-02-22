@@ -7,7 +7,7 @@ export const Navbar = () => {
   return (
     <div className='sticky top-0  bg-black px-20'>
       <div className='flex justify-between text-2xl px-20  '>
-        <div className='text-2xl uppercase'>Dharaneesh A.M</div>
+      <Link to='/'><div className='text-2xl uppercase'>Dharaneesh A.M</div></Link>
         <div></div>
         <div></div>
         <div></div>

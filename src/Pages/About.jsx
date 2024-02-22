@@ -1,10 +1,11 @@
 import React from 'react'
 import bg_image from './../assets/BG-image.jpeg'
-import profile from './../assets/Dharaneesh.jpeg'
+import profile from './../assets/Aboutpage.jpg'
 import blenderlogo from './../assets/Logo/blenderlogo.jpeg'
 import unitylogo from './../assets/Logo/UnityLogo.jpeg'
 import editlogo from './../assets/Logo/EditLogo.jpeg'
 import unreallogo from './../assets/Logo/UnrealengineLogo.jpeg'
+
 
 export const About = () => {
   return (
@@ -14,7 +15,7 @@ export const About = () => {
       <div id='styleandtopic' className='w-full h-96 pt-20 relative'>
         <img className='w-full h-full object-cover' src={bg_image} alt="Background" />
         <div className='absolute inset-0 flex pl-20 items-center'>
-          <div className='text-white text-4xl text-center'>
+          <div className='text-white text-4xl text-center uppercase'>
             About Me
           </div>
         </div>
